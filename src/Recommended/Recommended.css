@@ -1,0 +1,39 @@
+.recommended-flex {
+  display: flex;
+  margin-left: 20rem;
+}
+
+.recommended-title {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight:100;
+}
+.recommended-text {
+  text-align: center;
+
+}
+.recparagraph{
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.recommendicon{
+  margin-left: 5px;
+}
+.recommendedd{
+  text-align: start;
+  margin-top: 3px;
+}
+.recommendation-container {
+  margin-left: 3.5rem;
+  margin-right: 4rem;
+
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+padding:1.5rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+

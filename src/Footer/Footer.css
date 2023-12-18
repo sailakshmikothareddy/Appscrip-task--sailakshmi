@@ -1,0 +1,56 @@
+.footer-section{
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+}
+.section1{
+  display: flex;
+  justify-content: space-between;
+  margin-left:7rem;
+  margin-top:5rem;
+}
+.email-input {
+  width: 20rem;
+}
+.section1 ul li {
+  margin-bottom: 15px; 
+}
+
+.item,.item1{
+  flex: 1;
+  margin-bottom: 20px;
+}
+.item h4,
+.item1 h4 {
+  margin-bottom: 10px; 
+}
+
+.item ul,
+.item1 ul {
+  margin-bottom: 20px; 
+}
+.signup-text {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.subscribe-button {
+  border: 1px  solid #686767;
+  color: #686767;
+  background: none;
+  padding: 0.5rem 2rem;
+}
+.hr-line{
+  width: 100%;
+  border-top: 1px solid #fff;
+  margin: 10px 0;
+}
+.item1 > div > h1,
+.item1 > div > ul {
+  flex: 1;
+  margin-right: 20px;
+}
+.copy-right{
+  text-align: center;
+}
+
+
