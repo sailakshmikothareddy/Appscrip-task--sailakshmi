@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
  import "./Rawmaterials.css";
-// import Input from "../../components/Input";
 import arrowLeft from '../../assets/icons/arrow-left.svg';
 import arrowTop from '../../assets/icons/arrow-top.svg';
 
