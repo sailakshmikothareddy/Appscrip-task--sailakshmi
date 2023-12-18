@@ -15,7 +15,7 @@ const Price = ({ handleChange }) => {
       <div className="">
       <div className='sidebar-toggle'  onClick={toggleCategory}>
 
-        <h2 className="sidebar-title price-title">Price</h2>
+        <h2 className="sidebar-title price-title">Occassion</h2>
         <img src={isOpen ? arrowLeft : arrowTop} alt="Arrow" />
 </div>
 <p className='allCategory'>All</p>

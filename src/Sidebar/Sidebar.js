@@ -61,7 +61,7 @@ const Sidebar = ({ handleChange }) => {
         <Category isOpen={isCategoryOpen} handleChange={handleChange} toggleCategory={toggleCategory} arrowIcon={isCategoryOpen ? arrowLeft : arrowTop} />
         
         <Price isOpen={isPriceOpen} handleChange={handleChange} togglePrice={togglePrice} arrowIcon={isPriceOpen ? arrowLeft : arrowTop} />
-        <Colors isOpen={isColorsOpen} handleChange={handleChange} toggleColors={toggleColors} arrowIcon={isColorsOpen ? arrowLeft : arrowTop} />
+        {/* <Colors isOpen={isColorsOpen} handleChange={handleChange} toggleColors={toggleColors} arrowIcon={isColorsOpen ? arrowLeft : arrowTop} /> */}
         <Work isOpen={isWorkOpen} handleChange={handleChange} toggleColors={toggleWorks} arrowIcon={isWorkOpen ? arrowLeft : arrowTop} />
         <Fabric isOpen={isFabricOpen} handleChange={handleChange} toggleColors={toggleFabrics} arrowIcon={isFabricOpen ? arrowLeft : arrowTop} />
         <Segment isOpen={isSegmentOpen} handleChange={handleChange} toggleColors={toggleSegments} arrowIcon={isSegmentOpen ? arrowLeft : arrowTop} />

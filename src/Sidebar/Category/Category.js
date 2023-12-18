@@ -14,7 +14,7 @@ function Category({ handleChange }) {
   return (
     <div>
       <div className='sidebar-toggle'  onClick={toggleCategory}>
-      <h2 className="sidebar-title">Category</h2>
+      <h2 className="sidebar-title">IDEAL FOR</h2>
       <img src={isOpen ? arrowLeft : arrowTop} alt="Arrow" />
       </div>
       <p onChange={handleChange} className='allCategory'>All</p>
